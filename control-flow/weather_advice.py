@@ -1,4 +1,4 @@
-User_response = input("Enter the weather condition (sunny, rainy, snowy): ").strip().lower()
+User_response = input("What's the weather like today? (sunny/rainy/cold): ").strip().lower()
 if User_response == "sunny":
     print("Wear a t-shirt and apply sunglasses.")
 elif User_response == "rainy":
